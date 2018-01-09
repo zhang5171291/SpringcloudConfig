@@ -1,14 +1,7 @@
+label: master
 server:
-  port: 8880
-spring:
-  application:
-    name: config-server
-  cloud:
-    config:
-      label: master
-      server:
-        git:
-          uri: https://github.com/zhang5171291/SpringcloudConfig
-          searchPaths: respo
-          username:
-          password:
+  git:
+    uri: https://github.com/zhang5171291/SpringcloudConfig
+    searchPaths: respo
+    username:
+    password:
