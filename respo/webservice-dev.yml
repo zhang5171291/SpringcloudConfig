@@ -1,0 +1,7 @@
+label: developer-30
+server:
+  git:
+    uri: https://github.com/zhang5171291/SpringcloudConfig
+    searchPaths: respo
+    username:
+    password:
