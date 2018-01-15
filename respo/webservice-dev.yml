@@ -1,5 +1,5 @@
-label: developer-30
-server:
+label: developer-31
+dserver:
   git:
     uri: https://github.com/zhang5171291/SpringcloudConfig
     searchPaths: respo
