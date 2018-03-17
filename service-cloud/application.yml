@@ -3,3 +3,12 @@ management:
     enabled: false
 aa:
   bb: 123
+eureka:
+  instance:
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  cloud:
+    profile: dev
